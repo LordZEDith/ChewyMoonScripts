@@ -35,7 +35,7 @@ namespace Mid_or_Feed.Champions
             E = new Spell(SpellSlot.E, 950);
             R = new Spell(SpellSlot.R);
 
-            W.SetSkillshot(0.5f, 220, 1500, false, SkillshotType.SkillshotCircle);
+            W.SetSkillshot(0.5f, 220, 1450, false, SkillshotType.SkillshotCircle);
             E.SetSkillshot(0.25f, 70, 1600, true, SkillshotType.SkillshotLine);
 
             // Populate spell list
